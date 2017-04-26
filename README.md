@@ -24,7 +24,7 @@ Search Term | Text(255) | Placeholder Search Term to be replaced by search term 
 Unique Record Name | Text(255) (Unique Case Insensitive) | This is indexed field will be used in SOQL for retrieving this record
 
 ### 2.3 Create Sf_ES_Connector class
-Here a <a href="https://github.com/elastic/professor-x/blob/master/src/Sf_Es_Connector.cls" target="_blank">link</a> to the source of our sample implementation.
+Here a <a href="https://github.com/elastic/xavier/blob/master/src/Sf_Es_Connector.cls" target="_blank">link</a> to the source of our sample implementation.
 
 ## 3.0 Framework Usage
 We can use this framework to fetch data from Elasticsearch. Below is a walkthrough of how to 
@@ -49,7 +49,7 @@ Copy the query and create a record in Es Connector Object using the search body 
 
 > *###SearchTerm### is what we are searching in query and the same text is copied in Search Term Field.*
 
-<img src="https://github.com/elastic/professor-x/blob/master/src/images/SingleSearchSFDCEsConnectorRecord.png" alt="Kibana Query" />
+<img src="https://github.com/elastic/xavier/blob/master/src/images/SingleSearchSFDCEsConnectorRecord.png" alt="Kibana Query" />
 
 <strong>Sample Usage</strong>
 ```
@@ -102,7 +102,7 @@ As in 3.1, copy the query and create a record in Es Connector Object.
 
 > *###Search1### and  ###Search2### are dynamic strings used  in query and are " |" separated in Search Term Field.*
 
-<img src="https://github.com/elastic/professor-x/blob/master/src/images/MultipleSearchSfConnector.png" alt="Kibana Query" />
+<img src="https://github.com/elastic/xavier/blob/master/src/images/MultipleSearchSfConnector.png" alt="Kibana Query" />
 
 <strong>Sample Usage</strong>
 ```
