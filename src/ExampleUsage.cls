@@ -2,7 +2,7 @@ public class ExampleUsage {
  
   /**
    * @description This method will be used when we need to search 
-   *              Single Search String 
+   *              Single Search String.
    */
  
  // This is your text to search may be an inputText on Visualforce
